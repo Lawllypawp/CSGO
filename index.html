@@ -35,8 +35,12 @@
     left: 20%;
     top: 70%;"/>
 	
-	<audio controls autoplay>
-		<source src="Sound/Intro.mp3" type="audio/mp3">
+	<object data="Sound/Intro.mp3" type="audio/mpeg" autostart="true">
+		<embed src="Sound/Intro.mp3" autostart="true" />
+	</object>
+	
+	<audio autoplay controls>
+		<source src="Sound/Intro.mp3" type="audio/mpeg">
 	</audio>
 
   </body>
