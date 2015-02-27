@@ -29,10 +29,6 @@ summary {
   display: block;
 }
 
-audio,embed{
-	display:none
-}
-
 [hidden],
 template {
   display: none;
